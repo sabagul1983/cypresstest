@@ -1,0 +1,17 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "triggerAllTests-testcases": "npx cypress run --browser chrome --spec cypress/integration/testcase/* ",
+    "triggerAllTests-alias": "npx cypress run --browser chrome --spec cypress/integration/multipulDataWithIlyas/* "
+  },
+  "author": "saba",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
